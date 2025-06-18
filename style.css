@@ -257,6 +257,11 @@ textarea.form-control {
   animation: slideInRight 2s ease forwards;
 }
 
+.invisible {
+  opacity: 0;
+  transform: translateX(0); /* Imposta posizione neutra */
+}
+
 /*--------------------------------------------------------------
 # TABLET (min-width: 768px)
 --------------------------------------------------------------*/
